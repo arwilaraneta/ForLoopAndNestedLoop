@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char ch;
+    // Loop up to 5 iterations
+    for (int i = 0; i < 5; i++) {
+        cout << "Enter a character: ";
+        cin >> ch;
+        // Check if the entered character is 'n'
+        if (ch == 'n') {
+            cout << "You entered 'n'. Exiting the loop." << endl;
+            break;
+        }
+    }
+    return 0;
+}
