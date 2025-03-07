@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Loop from 10 to 0, decrementing by 2 in each iteration to print only even numbers.
+    for (int i = 10; i >= 0; i -= 2) {
+        cout << i << endl;
+    }
+    return 0;
+}
