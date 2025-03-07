@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sum = 0;
+    // Starting at 5, increment by 3 each iteration until 50 is reached.
+    for (int i = 5; i <= 50; i += 3) {
+        sum += i;
+    }
+    cout << "The sum of the series is: " << sum << endl;
+    return 0;
+}
